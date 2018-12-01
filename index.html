@@ -18,89 +18,218 @@
 
 <style type="text/css">
 	body{ 
-		background-color: grey;
-		margin: auto 10px;
-	    width: auto;
-	    /*height: 1500px;*/
-
+		background-image: linear-gradient(to bottom right, rgb(29, 59, 41), rgb(24, 127, 103), rgb(0, 95, 125));
+		color: white; 
 		}
 	h1{
-		text-align: left;
-		background-color: white;
 		padding: 20px;
-		margin-top: 20px;
 		border: 2px;
 		border-radius: 15px;
 		outline-style: double;
 		text-align: center;
-	
+		width: 80%;
+		margin-bottom: 20px;
 	}
-	img{
+
+		ul {
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    overflow: hidden;
+	    background-color: rgb(28, 58, 44);
+
+		}
+
+		li {
+		    float: left;
+		}
+
+		li a {
+		    display: inline-block;
+		    color: white;
+		    text-align: center;
+		    padding: 14px 16px;
+		    text-decoration: none;
+		    text-align: center;
+		}
+
+		li a:hover {
+		    background-color: #111;
+		}
+
+	h3{
+		text-decoration: none;
+	}
+	a:link, a:visited { color: rgb(222, 208, 194) }
+	#chris{
 		padding: 15px;
 		border: 2px;
 		outline-style: double;
-		margin-left: 100px;
 		margin-top: 20px;
-		margin-bottom: 300px;
-
-	}
-
-	#ftse{
-		float: right;
-		width: 750px;
-		margin-right: 100px;
+		margin-bottom: 20px;
+		/*display: inline-block;
+*/	}
+	#ftse {
 		margin-bottom: 100px;
-		
-
+		display: inline-block;
 	}
 
-	#white{
-		background-color: white;
-		/*margin-top: 20px;*/
-		padding-top: 20px;
+	#parallax1 { /* The image used */
+    background-image: url("leaves.jpg");
 
+    /* Set a specific height */
+    min-height: 200px; 
+    margin: 0 auto;
 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
 
+    .header {
+	  padding: 10px 16px;
+	  background-image: linear-gradient(to bottom right, rgb(29, 59, 41), rgb(42, 71, 57), rgb(68, 99, 78));
+     
 	}
+
+	#parallax2 { /* The image used */
+    background-image: url("wave.jpg");
+
+    /* Set a specific height */
+    min-height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+
+   #parallax3 { /* The image used */
+    background-image: url("wave.jpg");
+
+    /* Set a specific height */
+    min-height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+    #parallax4 { /* The image used */
+    background-image: url("leaves.jpg");
+
+    /* Set a specific height */
+    min-height: 200px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+    img{margin-top: 30px;}
 
 </style>
+
 </head>
-<div class="container-fluid">
-	<body>
+<!-- <div class="container-fluid"> -->
 
-	<div id="white">
+		<div class="header">
+			<div><h1 class="container-fluid">Christopher Rice</h1></div>
+		</div>
 
-	<h1 class="container">Christopher Rice</h1>
+<ul>
+  <li><a class="active" href="#ftse">Present</a></li>
+  <li><a href="#hedge">2017</a></li>
+  <li><a href="#elliott">2014</a></li>
+  <li><a href="https://www.linkedin.com/in/chris-rice-673684100/" target="blank">LinkedIn</a></li>
+</ul>
 
+
+<body>
+
+<div id="parallax1"></div>	<!-- creatig a parallax for content -->
+
+
+<div class="content">
+	<div class="container-fluid">
+
+	<section>
+		<div class="row">
+			<div class="col-sm-4"><img id="chris" src="chrisphoto.jpg" class="img-responsive"></div>
+
+				<div id="ftse" class="col-sm-8">
+					<h2 style="padding-top: 120px; padding-right: ">ETF Launch Manager, ETP Strategy & Business Development</h2>
+						<h3><a href="http://www.ftserussell.com" target="_blank">FTSE Russell</a></h3>
+							<h6 style="font-style: italic;">January 2017 - Present</h6>
+							<p>
+								Strategy, business development, and project management for global business vertical responsible for licensing indexes to serve the basis of investable products in ETP wrappers. ($600B in assets, 600 ETF’s) </p>
+							<p>
+								Aid in the execution of firm commercial policy and business unit strategy by consulting with both established ETP issuers and new market entrants on tailored “go to market” strategies. </p>
+
+							<p>	 
+								Lead project planning of index design, development, data management, distribution, marketing, and communications with end goal of offering innovative exchange traded products to the investment community. </p>
+
+							<p>
+								 Coordinate ongoing support for existing client base in order to ensure the full value of a firm with global reach across various market segments is brought to ETP issuers in one cohesive value-add offering.</p>
+				</div> <!-- ftse content-->
+		</div>	<!-- row div -->	
+	</section>
+
+<div id="parallax2"></div>
+
+	<section style="padding-bottom: 50px;" class="container-fluid">
+		<div class="row">			
+			<div id="hedge" class="col-sm-6">	
+				<h2 style="padding-top: 30px;">Associate</h2>
+					<h3><a href="http://www.hedgeserv.com" target="_blank">HedgeServ</a></h3>
+						<h6 style="font-style: italic;">June 2015 - January 2017</h6>
+			</div>
+			<div class="col-sm-6"><img id="" src="nyc1.jpg" class="img-responsive""></div>
+		</div> <!-- row div -->
+	</section>
+			
+<div id="parallax3"></div>
 	
-		<img src="chrisphoto.jpg" height="30%" width="30%">
+	<section style="padding-bottom: 50px;" class="container-fluid">
+		<div class="row">
+			<div class="col-sm-5" style="padding-top: 120px;"><img id="" src="architecture.jpg" class="img-responsive"></div>
+			<div id="elliott" class="col-sm-7">	
+				<h2 style="padding-top: 50px;">Analyst</h2>
+					<h3><a href="http://www.elliottmgmt.com" target="_blank">Elliott Management Corporation</a></h3>
+						<h6 style="font-style: italic;">June 2014 - August 2014</h6>
+							<p>
+								Contributed to daily investment/operational functions of hedge fund with $24billion in AUM.
+							</p>
+							<p>
+								Created a platform that coordinated the acquisition path, history, financing, and availability of securities. The resulting platform gave a transparent view as to where securities were custodialized, terms of rehypothefication/collaterization, and was utilized by the firms departments ranging from US Equity Activism (Front Office) to Stock Loan and Accounting (Back Office).
+							</p>
+							<p>
+								Delivered an investment proposal to Research Director/Senior Portfolio Manager that detailed growth opportunities, drivers/catalysts, business models, and industry/general financial metrics.
+							</p>
+							<p>
+								Strategized with compliance/operations directors in an effort to mobilize both information and data into regulatory reporting technologies for filing of FORM PF and ANNEX IV documents.
+							</p>
+							<p>
+								Contributed to Compliance department regulatory/tax optimization efforts that ensured the firms non-US domiciled entities were compliant with FBAR (Foreign Bank Account Reporting) requirements grounded in the Bank Secrecy Act (“BSA”) of 1970.
+							</p>
 
-	
-	
-	<div id="ftse" class="container-fluid">
-		<h2>ETF Launch Manager, ETP Strategy & Business Development</h2>
-		<h3>FTSE Russell</h3>
-		<p>
-			Strategy, business development, and project management for global business vertical responsible for licensing indexes to serve the basis of investable products in ETP wrappers. ($600B in assets, 600 ETF’s) </p>
-		<p>
-			Aid in the execution of firm commercial policy and business unit strategy by consulting with both established ETP issuers and new market entrants on tailored “go to market” strategies. </p>
+			</div> <!-- elliot -->
+			
+		</div> <!--row div-->
+	</section>
+		
+	<div id="parallax4"></div>
 
-		<p>	 
-			Lead project planning of index design, development, data management, distribution, marketing, and communications with end goal of offering innovative exchange traded products to the investment community. </p>
-
-		<p>
-			 Coordinate ongoing support for existing client base in order to ensure the full value of a firm with global reach across various market segments is brought to ETP issuers in one cohesive value-add offering.
-
-		</p>
-	
-		<h2 style="padding-top: 30px;">Associate</h2>
-		<h3>HedgeServ</h3>
-
-		<h2 style="padding-top: 30px;">Analyst</h2>
-		<h3>Elliott Management Corporation</h3>
-	</div>
-
+	</div> <!-- containerfluiddiv -->
 </div>
+
+
 	</body>
-</div>
+</div> <!-- bodydiv -->
+
+
 </html>
